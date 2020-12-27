@@ -10,7 +10,7 @@ username_instagram: oinam
 
 markdown: kramdown
 permalink: pretty
-permalink: /:year/:title/
+permalink: /:title/
 
 sass:
   style: :compressed
