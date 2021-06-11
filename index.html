@@ -15,8 +15,8 @@ layout: default
     {% endunless %}
     <ol class="post-item">
       <li>
+        <span class="post-date">{{ post.date | date: "%b %d" }}</span> ·
         <a class="post-link" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a>
-        (<span class="post-date">{{ post.date | date: "%b %d" }}</span>)
       </li>
     </ol>
   {% endfor %}
