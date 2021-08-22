@@ -1,11 +1,6 @@
 # The PeppaEffect - British in the House
 
-<figure>
-  <img src="/images/2019/laaija-vr.jpg" alt="Laaija trying on VR.">
-  <figcaption>
-    Laaija trying on VR.
-  </figcaption>
-</figure>
+![Laaija trying on VR)](https://cdn.oinam.com/stories/2019/laaija-vr.jpg)
 
 I was not always comfortable that my first daughter speaks with a British Accent at an early age. It is much better now and is more neutral.
 

@@ -14,7 +14,7 @@ Nightmares happen during rapid eye movement (REM) or dream sleep. A child who’
 
 ### So, what do you do when your child have Night Terror?
 
-It is advised that you just wait it out and make sure she doesn’t hurt herself. Don’t speak to her or try to soothe her, and don’t try to shake or startle her awake or physically restrain her — all of which could lead to more frantic behavior. In 15 to 20 minutes, your child should calm down, curl up, and fall into a deep sleep again.
+It is advised that you just wait it out and make sure she doesn’t hurt herself. Don’t speak to her or try to soothe her, and don’t try to shake or startle her awake or physically restrain her — all of which could lead to more frantic behavior. In 15 to 20 minutes, your child should calm down, curl up, and fall into a deep sleep again.
 
 If your child experiences Night Terror, make sure
 
@@ -28,4 +28,4 @@ If your child experiences Night Terror, make sure
 - Let her get enough sleep, since children who go to bed overtired are more likely to experience night terror.
 - Extend her nap time, let her sleep a little later in the morning, or put her to bed earlier at night.
 - Schedule plenty of time for calming bedtime rituals, such as a bath, a song, a book, and lots of cuddling.
-- Since night terrors usually occur during the first part of the night, you could also try gently rousing your toddler after she’s been asleep for an hour or two — about 15 minutes before the typical episode would start. This should alter her sleep pattern enough to head off the night terror at the pass.
+- Since night terrors usually occur during the first part of the night, you could also try gently rousing your toddler after she’s been asleep for an hour or two — about 15 minutes before the typical episode would start. This should alter her sleep pattern enough to head off the night terror at the pass.

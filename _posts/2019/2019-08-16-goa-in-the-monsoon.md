@@ -1,7 +1,7 @@
 # Goa in the Monsoon
 
 <figure>
-  <img src="/images/2019/oinam-goa-2019-aug.jpg" alt="Oinam at Goa, 2019">
+  <img src="https://cdn.oinam.com/stories/2019/oinam-goa-2019-aug.jpg" alt="Oinam at Goa, 2019">
   <figcaption>
     Oinam at Goa, 2019
   </figcaption>
@@ -11,7 +11,7 @@ Like most of us Indians, our family decided to go to Goa during the monsoon (off
 
 With the news of flood and the weather not getting better, we pretty much gave up and tried to cancel out hotel booking. Unfortunately, cancellation didn’t go through and on the day before the journey, we decided to just brave it through.
 
-![Road from Bangalore to Goa](/images/2019/oinam-goa-2019-aug-monsoon.jpg)
+![Road from Bangalore to Goa](https://cdn.oinam.com/stories/2019/oinam-goa-2019-aug-monsoon.jpg)
 
 As our journey started, the murky sky of August had mixed effects on us — dreamy, romantic punctuated with a series of scary uncertainties. After driving pretty much the whole of Karnataka on National Highways, the trouble began when we try to cross over the border to Goa. We hit roadblocks or rather flood-blocks, and had to turn around 3–4 times, and drove an additional 150+ KM for about 2 hours.
 
@@ -22,14 +22,14 @@ We did finally saw the Goa border and the signs to Goa’s capital, “Panaji”
 
 We did finally made it to the hotel. The family, after a hurried dinner, slept through the night.
 
-![Fun at the Pool](/images/2019/oinam-goa-2019-aug-01.jpg)
-![Fun at the Pool](/images/2019/oinam-goa-2019-aug-02.jpg)
+![Fun at the Pool](https://cdn.oinam.com/stories/2019/oinam-goa-2019-aug-01.jpg)
+![Fun at the Pool](https://cdn.oinam.com/stories/2019/oinam-goa-2019-aug-02.jpg)
 
 The next two day was, of course, fun, frolic, and food. The kids loved it. We started our day at the hotel pool and drove around. The south of Goa is sparse, good for families which meant we had to drive long distances to get from one place to another.
 
-![Goa - Good](/images/2019/oinam-goa-2019-aug-03.jpg)
-![Goa - Good](/images/2019/oinam-goa-2019-aug-04.jpg)
-![Goa - Good](/images/2019/oinam-goa-2019-aug-05.jpg)
+![Goa - Good](https://cdn.oinam.com/stories/2019/oinam-goa-2019-aug-03.jpg)
+![Goa - Good](https://cdn.oinam.com/stories/2019/oinam-goa-2019-aug-04.jpg)
+![Goa - Good](https://cdn.oinam.com/stories/2019/oinam-goa-2019-aug-05.jpg)
 
 Food is good and cheap in Goa during the monsoon. We started with our first lunch at [Martin’s Corner](https://martinscornergoa.com/).
 
@@ -45,16 +45,16 @@ Food on the second day was simpler. We started with a lazy lunch at the [Mayfair
 
 We grabbed drinks, fruits, and local food for the remainder of the day. We finished off with a light dinner at the the [Robin’s Ark](https://www.tripadvisor.com/Restaurant_Review-g775971-d10219749-Reviews-Robin_s_Ark-Cavelossim_South_Goa_District_Goa.html), Cavelossim, Goa.
 
-![Goa - Beach](/images/2019/oinam-goa-2019-aug-06.jpg)
-![Goa - Beach](/images/2019/oinam-goa-2019-aug-07.jpg)
-![Goa - Beach](/images/2019/oinam-goa-2019-aug-08.jpg)
+![Goa - Beach](https://cdn.oinam.com/stories/2019/oinam-goa-2019-aug-06.jpg)
+![Goa - Beach](https://cdn.oinam.com/stories/2019/oinam-goa-2019-aug-07.jpg)
+![Goa - Beach](https://cdn.oinam.com/stories/2019/oinam-goa-2019-aug-08.jpg)
 
 We returned home the next day. The return journey wasn’t rosy either. Perhaps it was worse than the one we started. We took a detour on one of the forest routes and had to return to where we started because a bridge got flooded over. The only route that was working also got a bit of a landslide and had to wait for about 45min to be cleared.
 
-![Goa - On the way to Bangalore](/images/2019/oinam-goa-2019-aug-09.jpg)
+![Goa - On the way to Bangalore](https://cdn.oinam.com/stories/2019/oinam-goa-2019-aug-09.jpg)
 
 The flood raged on and there was no sign of receding by the time we left Goa and much of Karnataka, and on our way to Bangalore.
 
-![Goa - On the way to Bangalore](/images/2019/oinam-goa-2019-aug-10.jpg)
+![Goa - On the way to Bangalore](https://cdn.oinam.com/stories/2019/oinam-goa-2019-aug-10.jpg)
 
 Our family’s Aug 2019 journey from Bangalore to Goa would be something to remember. As usual, Goa was awesome — be it the season or not.

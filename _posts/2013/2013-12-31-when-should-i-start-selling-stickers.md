@@ -1,15 +1,10 @@
 # When should I start selling Stickers
 
-<figure>
-  <img src="/images/2013/laaija-stickers-sale.jpg" alt="Laaija wants to sell Stickers">
-  <figcaption>
-    Laaija’s plan to earn money by selling stickers to her school friends.
-  </figcaption>
-</figure>
+![Laaija wants to sell Stickers)](https://cdn.oinam.com/stories/2013/laaija-stickers-sale.jpg)
 
 The recent cut on Laaija’s toy quota have sent her over the edge and every opportunity she gets is on how to get more money sanctioned for her toys. She have devised quite a few ideas and some of them are pretty interesting.
 
-Yesterday, we were out on a stroll, taking her to a different play-park which are a bit far from home. On the way, we ended up talking about — money and her toys. She suggested she can start selling stuffs because that’s how people get money — you sell stuffs and people give you money to buy them.
+Yesterday, we were out on a stroll, taking her to a different play-park which are a bit far from home. On the way, we ended up talking about — money and her toys. She suggested she can start selling stuffs because that’s how people get money — you sell stuffs and people give you money to buy them.
 
 **Laaija: I think I can start selling stickers and posters to my friends in school and even to other kids on the street and the park.**
 

@@ -12,7 +12,7 @@ Of course not. I’ve never heard any history of Asthma in our family, relatives
 
 **Atopic Dermatitis**
 
-Atopic Dermatitis is the medical term for the inflammatory skin disease which also goes by the names of — “prurigo Besnier,” “neurodermitis,” “endogenous eczema,” “flexural eczema,” “infantile eczema,” and “prurigo diathsique”.
+Atopic Dermatitis is the medical term for the inflammatory skin disease which also goes by the names of — “prurigo Besnier,” “neurodermitis,” “endogenous eczema,” “flexural eczema,” “infantile eczema,” and “prurigo diathsique”.
 
 There are, so far, no cure for AD. It can, however, be treated very effectively in the short term through a combination of prevention (learning what triggers the allergic reactions) and drug therapy.
 

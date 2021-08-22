@@ -1,7 +1,7 @@
 # Why Physical Books Matter
 
 <figure>
-  <img src="/images/2018/books-laaija-2018.jpg" alt="Laaija's Books">
+  <img src="https://cdn.oinam.com/stories/2018/books-laaija-2018.jpg" alt="Laaija's Books">
   <figcaption>
     Laaija's Books
   </figcaption>
@@ -15,19 +15,11 @@ However, along my journey with books, I realized a small shortcoming that turn o
 
 Kids copy us a lot, they watch us with an ever eager eye, wreathed in questions. That was when I decided, I need to always be reading at-least one physical book and have it around the house. So, I try to have one physical book for every 5 or so eBooks that I read/buy.
 
-<figure>
-  <img src="/images/2018/laaija-reading-book-1.jpg" alt="Laaija reads in the car.">
-  <figcaption>
-    Laaija reads in the car.
-  </figcaption>
-</figure>
+![Laaija reads in the car)](https://cdn.oinam.com/stories/2018/laaija-reading-book-1.jpg)
+_Laaija reads in the car._
 
-<figure>
-  <img src="/images/2018/laaija-reading-book-2.jpg" alt="Laaija reads in the plane.">
-  <figcaption>
-    Laaija reads in the plane. 
-  </figcaption>
-</figure>
+![Laaija reads in the plane)](https://cdn.oinam.com/stories/2018/laaija-reading-book-2.jpg)
+_Laaija reads in the plane._
 
 My daughter do love reading and seeing me “reading” does encourages her to read more. She gorges on books pretty fast. I bought her a book and asked her after few days, “Did you read the books I bought. They seem interesting.” Well,“I already finished reading them.”
 
@@ -35,11 +27,6 @@ Go ahead, read more physical books in front of your kids. Encourage them to read
 
 On a lighter note, my younger one is one step ahead — she is already on top of them.
 
-<figure>
-  <img src="/images/2018/amara-standing-on-books.jpg" alt="Amara on top of Books.">
-  <figcaption>
-    Amara on top of Books.
-  </figcaption>
-</figure>
-
 Happy Reading.
+
+![Amara on top of Books.)](https://cdn.oinam.com/stories/2018/amara-standing-on-books.jpg)

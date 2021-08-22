@@ -1,11 +1,6 @@
 # I just wanted to be pretty
 
-<figure>
-  <img src="/images/2010/laaija-lipstick-2010.jpg" alt="Laaija - Lipstick">
-  <figcaption>
-    Laaija - Lipstick
-  </figcaption>
-</figure>
+![Lipstick)](https://cdn.oinam.com/img/oinam/laaija-lipstick-2010.jpg)
 
 We all went to see Dabang, a Salman Khan movie and was good laugh, nice entertainment. Leia watched the movie from start to finish, enjoying every bit of it — the dances, the fights, everything.
 

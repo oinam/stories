@@ -9,7 +9,7 @@ Fresh off the episodes of the fourth season of [Sherlock](http://www.imdb.com/ti
 
 She ignored all of my smart deduction tactics. Instead, she replied, “Why don’t we just look at the security camera and find out where I left it?”
 
-![Canary](/images/2017/canary-camera.jpg "Canary Security Camera")
+![Canary](https://cdn.oinam.com/stories/2017/canary-camera.jpg "Canary Security Camera")
 
 “huh!”
 

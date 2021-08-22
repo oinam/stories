@@ -1,9 +1,11 @@
 title: Oinam Stories
-email: oinam@oinam.com
+email: hi@oinam.com
 description: "Stories about kids, parenting, and fun things at Oinam."
 
 baseurl: ""
 url: "https://stories.oinam.com"
+
+remote_theme: oinam/oinam-jekyll
 
 username_twitter: oinam
 username_instagram: oinam
@@ -12,8 +14,18 @@ markdown: kramdown
 permalink: pretty
 permalink: /:year/:title/
 
-sass:
-  style: :compressed
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-optional-front-matter
+  - jekyll-titles-from-headings
+
+titles_from_headings:
+  enabled: true
+  strip_title: true
+  collections: true
 
 defaults:
   - scope:
@@ -21,22 +33,6 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-
-# Build settings
-plugins:
-  - jekyll-titles-from-headings
-  - jekyll-optional-front-matter
-  - jekyll-feed
-
-# jekyll-titles-from-headings, https://github.com/benbalter/jekyll-titles-from-headings/
-titles_from_headings:
-  enabled:     true
-  strip_title: false
-  collections: false
-
-# optional-front-matter, https://github.com/benbalter/jekyll-optional-front-matter
-optional_front_matter:
-  remove_originals: true
 
 exclude:
   - .jekyll-cache/
