@@ -47,7 +47,6 @@ We grabbed drinks, fruits, and local food for the remainder of the day. We finis
 
 ![Goa - Beach](/static/img/2019/oinam-goa-2019-aug-06.jpg)
 ![Goa - Beach](/static/img/2019/oinam-goa-2019-aug-07.jpg)
-![Goa - Beach](/static/img/2019/oinam-goa-2019-aug-08.jpg)
 
 We returned home the next day. The return journey wasn’t rosy either. Perhaps it was worse than the one we started. We took a detour on one of the forest routes and had to return to where we started because a bridge got flooded over. The only route that was working also got a bit of a landslide and had to wait for about 45min to be cleared.
 
