@@ -1,7 +1,7 @@
 # Why Physical Books Matter
 
 <figure>
-  <img src="https://cdn.oinam.com/stories/2018/books-laaija-2018.jpg" alt="Laaija's Books">
+  <img src="https://cdn.oinam.com/img/books/books-laaija-2018.jpg" alt="Laaija's Books">
   <figcaption>
     Laaija's Books
   </figcaption>
@@ -15,10 +15,10 @@ However, along my journey with books, I realized a small shortcoming that turn o
 
 Kids copy us a lot, they watch us with an ever eager eye, wreathed in questions. That was when I decided, I need to always be reading at-least one physical book and have it around the house. So, I try to have one physical book for every 5 or so eBooks that I read/buy.
 
-![Laaija reads in the car)](https://cdn.oinam.com/stories/2018/laaija-reading-book-1.jpg)
+![Laaija reads in the car)](/static/img/2018/laaija-reading-book-1.jpg)
 _Laaija reads in the car._
 
-![Laaija reads in the plane)](https://cdn.oinam.com/stories/2018/laaija-reading-book-2.jpg)
+![Laaija reads in the plane)](/static/img/2018/laaija-reading-book-2.jpg)
 _Laaija reads in the plane._
 
 My daughter do love reading and seeing me “reading” does encourages her to read more. She gorges on books pretty fast. I bought her a book and asked her after few days, “Did you read the books I bought. They seem interesting.” Well,“I already finished reading them.”
@@ -29,4 +29,4 @@ On a lighter note, my younger one is one step ahead — she is already on top of
 
 Happy Reading.
 
-![Amara on top of Books.)](https://cdn.oinam.com/stories/2018/amara-standing-on-books.jpg)
+![Amara on top of Books.)](/static/img/2018/amara-standing-on-books.jpg)

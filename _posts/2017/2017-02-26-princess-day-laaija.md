@@ -4,7 +4,7 @@ Inspired by a story on the Internet, I decided to have a Princess day for my dau
 
 Princess Day — a day she can do whatever she wants and be treated like a princess.
 
-![Breakfast in Bed)](https://cdn.oinam.com/stories/2017/breakfast-in-bed.jpg)
+![Breakfast in Bed)](/static/img/2017/breakfast-in-bed.jpg)
 
 The day started with a ‘breakfast in bed’ — the way she wants it. The bacon and the eggs didn’t look that good but she loved it.
 

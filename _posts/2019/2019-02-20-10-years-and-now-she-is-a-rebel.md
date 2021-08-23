@@ -1,7 +1,7 @@
 # 10 years and now she is a ‘Rebel’
 
 <figure>
-  <img src="https://cdn.oinam.com/stories/2019/laaija-10-year-rebel.jpg" alt="Laaija - a Rebel">
+  <img src="https://cdn.oinam.com/img/oinam/laaija-10-year-rebel.jpg" alt="Laaija - a Rebel">
   <figcaption>
     Laaija 10 years ago in 2008 and now alongside Amara in 2018.
   </figcaption>
