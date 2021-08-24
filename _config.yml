@@ -1,14 +1,10 @@
 title: Oinam Stories
-email: hi@oinam.com
-description: "Stories about kids, parenting, and fun things at Oinam."
+description: Stories about kids, parenting, and fun things at Oinam.
 
-url: ""
-baseurl: ""
+url: ''
+baseurl: ''
 
 remote_theme: oinam/oinam-jekyll
-
-username_twitter: oinam
-username_instagram: oinam
 
 markdown: kramdown
 permalink: pretty
@@ -37,6 +33,7 @@ defaults:
 exclude:
   - .jekyll-cache/
   - .sass-cache/
+  - CNAME
   - Gemfile
   - Gemfile.lock
   - gemfiles/
