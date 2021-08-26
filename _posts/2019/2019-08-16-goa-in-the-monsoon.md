@@ -1,11 +1,6 @@
 # Goa in the Monsoon
 
-<figure>
-  <img src="/static/img/2019/oinam-goa-2019-aug.jpg" alt="Oinam at Goa, 2019">
-  <figcaption>
-    Oinam at Goa, 2019
-  </figcaption>
-</figure>
+<img class="large" src="/static/img/2019/oinam-goa-2019-aug.jpg" alt="Oinam at Goa, 2019">
 
 Like most of us Indians, our family decided to go to Goa during the monsoon (off-season for the usual tourists). The bad part — we decided to drive from Bangalore. The worst part — we drove during the Indian Flood of 2019.
 

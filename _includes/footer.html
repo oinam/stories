@@ -1,7 +1,7 @@
 <footer class="footer">
   {% include nav.html %}
   <p>
-    <small>© {{ "now" | date: "%Y" }} {{ site.title }}.</small>
+    <small>Stories from the <a href="https://oinam.com">Oinam</a> family.</small>
   </p>
 </footer>
 
@@ -22,12 +22,13 @@
 
   // Layer 2
   new Speckle(multi, {
-    quantity: 5, 
-    minSize: 20,
-    maxSize: 60, 
+    quantity: 7, 
+    minSize: 10,
+    maxSize: 90, 
     tbOffset: 0, 
     lrOffset: 24,
-    minOpacity: 10, 
+    isBokeh: true,
+    minOpacity: 20, 
     maxOpacity: 30,
     zIndex: -9,
   });
@@ -35,26 +36,26 @@
   // Layer 3
   new Speckle(multi, {
     isBokeh: true, 
-    quantity: 9, 
+    quantity: 7, 
     minSize: 20, 
     maxSize: 100, 
     tbOffset: 0, 
     lrOffset: 30, 
     minOpacity: 10, 
     maxOpacity: 40,
-    zIndex: 99, 
+    zIndex: 9, 
   });
 
   // external links opens in new tab
   function externalLinks() {
-  for(var c = document.getElementsByTagName("a"), a = 0;a < c.length;a++) {
-    var b = c[a];
-    b.getAttribute("href")
-    && b.hostname !== location.hostname
-    && (b.target = "_new")
-    && (b.rel = "noopener")
+    for(var c = document.getElementsByTagName("a"), a = 0;a < c.length;a++) {
+      var b = c[a];
+      b.getAttribute("href")
+      && b.hostname !== location.hostname
+      && (b.target = "_new")
+      && (b.rel = "noopener")
+    }
   }
-}
-;
-externalLinks();
+  ;
+  externalLinks();
 </script>
