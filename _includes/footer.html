@@ -1,14 +1,21 @@
 <footer class="footer">
   {% include nav.html %}
-  <p>
-    <small>Stories from the <a href="https://oinam.com">Oinam</a> family.</small>
-  </p>
+  <div class="footer__credit">
+    <div>
+      <p>
+        <small>Stories from the <a href="https://oinam.com">Oinam</a> family.</small>
+      </p>
+    </div>
+    {% include appearance.html %}
+  </div>
 </footer>
 
-{% comment %}<!--
+{% comment %}
+<!--
   Let's add some speckles, I have two daughter and they love these.
   https://github.com/dreamsicle-io/speckle
-  -->{% endcomment %}
+-->
+{% endcomment %}
 <script type="text/javascript" src="{{ site.url | relative_url }}/speckle.min.js"></script>
 <script type="text/javascript">
   const multi = document.querySelector('main');
