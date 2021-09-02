@@ -1,6 +1,6 @@
 # Listen to your Kid’s Small ‘Big’ Things
 
-![Laaija FaceTime to explains her needs.)](/static/img/2012/facetime-laaija-2012.jpg)
+![Laaija FaceTime to explains her needs.)](/static/img/2012/facetime-laaija-2012.webp)
 
 Since the past few weeks, my daughter have a routine when she gets back from school — to let her come in on her own and no-one waiting for her at the gate. Of late, she’s been trying to foster her independence and individuality. She had instructed us that when she gets down from the School van, we should not be waiting for her and we should be on our own — doing our work, attending to chores and not worry about her.
 

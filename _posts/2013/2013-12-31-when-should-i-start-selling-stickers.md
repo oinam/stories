@@ -1,6 +1,6 @@
 # When should I start selling Stickers
 
-![Laaija wants to sell Stickers)](/static/img/2013/laaija-stickers-sale.jpg)
+![Laaija wants to sell Stickers)](/static/img/2013/laaija-stickers-sale.webp)
 
 The recent cut on Laaija’s toy quota have sent her over the edge and every opportunity she gets is on how to get more money sanctioned for her toys. She have devised quite a few ideas and some of them are pretty interesting.
 

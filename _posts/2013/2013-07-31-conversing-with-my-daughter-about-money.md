@@ -4,7 +4,7 @@ Yesterday, I went out for an evening coffee/snack with my daughter. On our way b
 
 We went into the toy store. She browse around for a while and the usual happened, she wanted one of the new toy. She didn’t do her tantrum-thingy but it was more of a pleading, “please, this is so cute and I really like it.” It went on for a while and I cave in to her actions. The toy was not even costly at all and with the discount that I asked for (the packaging was a bit torn), I was able to get it for ₹400.
 
-![Laaija with Nemo)](/static/img/2013/laaija-nemo.jpg)
+![Laaija with Nemo)](/static/img/2013/laaija-nemo.webp)
 
 As we walked along 100 feet Road in Indira Nagar, Bangalore she started a discussion;
 
