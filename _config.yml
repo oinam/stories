@@ -3,7 +3,15 @@ description: Stories about kids, parenting, and fun things at Oinam.
 
 remote_theme: oinam/oinam-jekyll
 
-# Styles
+footer:
+  credit: false
+  custom: true
+
+footer_custom: 'Stories from the <a href="https://oinam.com">Oinam</a> family.'
+
+layout:
+  theme: default
+
 styles:
   font_family: serif # serif, sans
 
