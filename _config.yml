@@ -12,9 +12,6 @@ footer_custom: 'Stories from the <a href="https://oinam.com">Oinam</a> family.'
 layout:
   theme: default
 
-styles:
-  font_family: serif # serif, sans
-
 markdown: kramdown
 permalink: pretty
 permalink: /:year/:title/
