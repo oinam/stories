@@ -9,7 +9,7 @@
 
 I used to have racks of books, I like them and I like reading them — a lot. When I was younger, except for the sports section, I used to read the whole newspapers every day. My friends used to ask me questions, which I loved answering and they would asked, “Which part of the Newspaper did you not read?”
 
-After relocating from Bombay to Pune to Bangalore, I decided to replace almost all physical objects with their digital counterparts wherever possible. I started culling books, movies, etc. By 2013–2014, I had successfully moved to eBooks and [Amazon Kindle](https://amzn.to/2Q3ppIm) played a big role in my journey.
+After relocating from Bombay to Pune to Bangalore, I decided to replace almost all physical objects with their digital counterparts wherever possible. I started culling books, movies, etc. By 2013–2014, I had successfully moved to eBooks and [Amazon Kindle](https://en.wikipedia.org/wiki/Amazon_Kindle) played a big role in my journey.
 
 However, along my journey with books, I realized a small shortcoming that turn out to be a major life-impacting event. In 2016, when I upgraded my Kindle, and gave the old one to my daughter — she didn’t really like it. When I told her that I do read a lot and reading is a good thing, she told me something very profound, “I never see you read books. You are just reading on your computer (kindle), or on the phone and is not really reading.”
 
