@@ -1,11 +1,9 @@
-# 10 years and now she is a ‘Rebel’
-
-<figure class="content-large">
-  <img src="https://cdn.oinam.com/img/oinam/laaija-10-year-rebel.webp" alt="Laaija - a Rebel">
-  <figcaption>
-    Laaija 10 years ago in 2008 and now alongside Amara in 2018.
-  </figcaption>
-</figure>
+---
+layout: post
+title: 10 years and now she is a ‘Rebel’
+image: 'https://cdn.oinam.com/img/oinam/laaija-10-year-rebel.jpg'
+tags: [laaija, rebel]
+---
 
 She was the cutest and the best thing that happened to me 10 years ago. She changed everything in my life — from the way I drive to the way I treat people to my overall approach in life. Without her, I might not have been able to face the uncertainties of a life that I chose to live.
 

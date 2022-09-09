@@ -1,4 +1,10 @@
-# A Toddler’s Night Terror
+---
+layout: post
+title: A Toddler’s Night Terror
+image: '/assets/photo/photo-placeholder.jpg'
+tags: [school]
+tags_color: '#618770'
+---
 
 Laaija is a sound sleeper and she can sleep very well even under very noisy environment. If she’s sleeping, she’s sleeping. However, once in a while, she would wake up and demand some of the most bizarre and weird demands. She would wail and cry, asking me to take her to down to the play-park, that her toys are being taken away, she do not love that person. We believed that she had nightmares and that woke her up.
 
@@ -23,7 +29,7 @@ If your child experiences Night Terror, make sure
 - Close doors properly and do not allow objects that can be dangerous to her when she roams around or walks around during her night terror moment.
 - Watch or listen to your child to make sure they are safe, but do not try to talk to them or hold them down. Talking or restraining a child often times makes the child more aggravated.
 
-### How do you prevent or reduce Night Terror.
+### How do you prevent or reduce Night Terror.
 
 - Let her get enough sleep, since children who go to bed overtired are more likely to experience night terror.
 - Extend her nap time, let her sleep a little later in the morning, or put her to bed earlier at night.

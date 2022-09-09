@@ -1,11 +1,6 @@
-source "https://rubygems.org"
-gem "jekyll", ">= 3.9.0", "< 5.0"
+source 'https://rubygems.org'
 
-group :jekyll_plugins do
-  gem 'jekyll-remote-theme'
-  gem 'jekyll-feed'
-  gem 'jekyll-paginate'
-  gem 'jekyll-sitemap'
-  gem 'jekyll-optional-front-matter'
-  gem 'jekyll-titles-from-headings'
-end
+gem "bundler"
+gem "jekyll"
+gem "jekyll-paginate"
+gem "jekyll-sitemap"

@@ -1,4 +1,10 @@
-# Technology and the depletion of real grit and raw intelligence
+---
+layout: post
+title: Technology and the depletion of real grit and raw intelligence
+image: '/assets/2017/canary-camera.jpg'
+tags: [technology]
+tags_color: '#618770'
+---
 
 Yesterday, my elder 8-year old daughter lost something. Her mom asked her to search around the house to find it. She asked me for help.
 
@@ -8,8 +14,6 @@ Fresh off the episodes of the fourth season of [Sherlock](http://www.imdb.com/ti
 2. Work backwards from now and connect the dots till you meet the timeline, whence you lost your item.
 
 She ignored all of my smart deduction tactics. Instead, she replied, “Why don’t we just look at the security camera and find out where I left it?”
-
-![Canary](/static/img/2017/canary-camera.webp "Canary Security Camera")
 
 “huh!”
 

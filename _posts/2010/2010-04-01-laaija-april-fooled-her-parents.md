@@ -1,4 +1,10 @@
-# Laaija April-Fooled Us
+---
+layout: post
+title: Laaija April-Fooled Us
+image: '/assets/photo/photo-placeholder.jpg'
+tags: [laaija, fun]
+tags_color: '#618770'
+---
 
 Laaija had her first April fool prank on us, unintentionally, but in a very polished way. Around 12:30am-ish today, Laaija seem to have twisted her elbow and she cried to the intent of waking everyone in the neighborhood. The assumption from her cries and the pain she had when we move her arm, let us to believe that something did happened.
 

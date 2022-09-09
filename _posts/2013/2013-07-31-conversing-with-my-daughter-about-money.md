@@ -1,10 +1,15 @@
-# Conversing with my Daughter about Money
+---
+layout: post
+title: Conversing with my Daughter about Money
+image: '/assets/2013/laaija-nemo.jpg'
+tags: [talk, laaija, money]
+tags_color: '#618770'
+featured: true
+---
 
 Yesterday, I went out for an evening coffee/snack with my daughter. On our way back home, she asked me if we can window-shop at the toy store. She assured me, “just want to look at the toys and not to buy.” Her mom had already done a good job of persuading her that buying too many toys are “not good for the toys” as they will fight amongst themselves when a new toys joins them and thus reducing toy-human time.
 
 We went into the toy store. She browse around for a while and the usual happened, she wanted one of the new toy. She didn’t do her tantrum-thingy but it was more of a pleading, “please, this is so cute and I really like it.” It went on for a while and I cave in to her actions. The toy was not even costly at all and with the discount that I asked for (the packaging was a bit torn), I was able to get it for ₹400.
-
-![Laaija with Nemo)](/static/img/2013/laaija-nemo.webp)
 
 As we walked along 100 feet Road in Indira Nagar, Bangalore she started a discussion;
 

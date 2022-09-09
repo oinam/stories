@@ -1,6 +1,12 @@
-# Signs that your child loves you
+---
+layout: post
+title: Signs that your child loves you
+image: '/assets/photo/photo-placeholder.jpg'
+tags: [love, baby]
+tags_color: '#b25642'
+---
 
-Babycenter have a list of [signs that your child loves you](http://www.babycenter.com/0_big-story-how-love-blossoms-between-you-and-your-child_1417762.bc?articleId=1417762&page=6#articlesection0).
+Signs that your child loves you;
 
 - Your newborn stares into your eyes — she’s actually working hard to memorize your face. She doesn’t understand anything else about the world, but she knows you’re important.
 - Your baby thinks about you even when you’re not around. Between 8 and 12 months old, she’ll start to scrunch her face and look around when you leave the room — and she’ll smile when you return.

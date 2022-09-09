@@ -1,4 +1,10 @@
-# How much sleep does your child need?
+---
+layout: post
+title: How much sleep does your child need?
+image: '/assets/photo/photo-placeholder.jpg'
+tags: [health, sleep]
+tags_color: '#b25642'
+---
 
 [Babycenter](http://www.babycenter.com/) is an extremely resourceful site if you’ve or expecting a child. Here is another gem that might just give you an overall idea of [How much sleep your child need?](http://www.babycenter.com/0_how-much-sleep-does-your-child-need_7645.bc)
 

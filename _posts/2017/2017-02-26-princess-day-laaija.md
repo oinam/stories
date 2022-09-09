@@ -1,10 +1,16 @@
+---
+layout: post
+title: Princess Day - Laaija
+image: '/assets/2017/breakfast-in-bed.jpg'
+tags: [princess, laaija]
+tags_color: '#0079c0'
+---
+
 # Princess Day - Laaija
 
 Inspired by a story on the Internet, I decided to have a Princess day for my daughter - Laaija.
 
 Princess Day — a day she can do whatever she wants and be treated like a princess.
-
-![Breakfast in Bed)](/static/img/2017/breakfast-in-bed.webp)
 
 The day started with a ‘breakfast in bed’ — the way she wants it. The bacon and the eggs didn’t look that good but she loved it.
 

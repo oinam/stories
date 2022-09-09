@@ -1,0 +1,58 @@
+---
+layout: default
+---
+
+<div class="container">
+  <div class="post-head">
+    {% if page.video_embed %} {% assign videoInfo = ' post__info-video' %} {% endif %}
+    <div class="post__info{{videoInfo}}">
+
+      {% if page.tags.size >= 1 %}
+        <div class="post__tags">
+          {% for tag in page.tags %}
+            <a href="{{ site.baseurl }}/tags/?tag={{ tag | downcase | url_encode }}" class="post__tag{% if page.tags_color %} tag-color-js{% endif %}" {% if page.tags_color %}data-accent="{{ page.tags_color }}"{% endif %} {% if page.tags_color %}style="color: {{ page.tags_color }};"{% endif %}>{{ tag }}</a>
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      <h1 class="post__title">{{ page.title | escape }}</h1>
+
+      {% if page.description %}
+        <div class="post__description">{{ page.description }}</div>
+      {% endif %}
+
+      <div class="post__meta">
+        <div class="post__meta__bottom">
+          <time class="post__date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
+        </div>
+      </div>
+    </div>
+
+    {% if page.video_embed %}
+    <div class="post-video">
+      <div class="post-video__wrap">
+        <iframe src="{{ page.video_embed }}" loading="lazy" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+    </div>
+
+    {% else %}
+
+    {%if page.image %}
+    <div class="post-image">
+      <img class="lazy" data-src="{{site.baseurl}}{{page.image}}" alt="{{page.title}}">
+    </div>
+    {%endif %}
+    
+    {% endif %}
+  </div>
+</div>
+
+<div class="container">
+  <article class="post">
+    <div class="post__content">
+      {{ content }}
+    </div>
+  </article>
+</div>
+
+{% include related-posts.html %}

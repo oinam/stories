@@ -1,6 +1,9 @@
-# I’ve a date; in Roblox
-
-![Laaija plays Roblox)](/static/img/2017/laaija-plays-roblox-2017.webp)
+---
+layout: post
+title: I’ve a date; in Roblox
+image: '/assets/2017/laaija-plays-roblox-2017.jpg'
+tags: [game, school, laaija]
+---
 
 I sneaked out a bit early to have my sip of the local tea by the road-side and stood by the School Bus stop waiting for Laaija. She comes back and, as usual, we started our after-school-talk.
 

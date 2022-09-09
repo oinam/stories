@@ -1,48 +1,42 @@
-title: Oinam Stories
-description: Stories about kids, parenting, and fun things at Oinam.
+baseurl: ""
+url: ""
 
-remote_theme: oinam/oinam-jekyll
-
-footer:
-  credit: true
-  custom: true
-
-footer_custom: 'Stories from the <a href="https://oinam.com">Oinam</a> family.'
-
-layout:
-  theme: default
-
+# Build
 markdown: kramdown
-permalink: pretty
-permalink: /:year/:title/
-
+permalink: /:title
 plugins:
-  - jekyll-remote-theme
-  - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-optional-front-matter
-  - jekyll-titles-from-headings
-  
-titles_from_headings:
-  enabled: true
-  strip_title: true
-  collections: true
 
+paginate: 10
+paginate_path: "/archives/page/:num"
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /:year/:title/
+
+# Pages Path
 defaults:
   - scope:
-      path: "_posts"
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
       type: "posts"
     values:
       layout: "post"
 
-exclude:
-  - .jekyll-cache/
-  - .sass-cache/
-  - CNAME
-  - Gemfile
-  - Gemfile.lock
-  - gemfiles/
-  - netlify.toml
-  - README.*
-  - vendor/
+sass:
+  sass_dir: _sass
+  style: compressed

@@ -1,4 +1,10 @@
-# Neonatal Jaundice
+---
+layout: post
+title: Neonatal Jaundice
+image: '/assets/photo/mom-holding-child-hand.jpg'
+tags: [laaija, neonatal, jaundice, hospital]
+tags_color: '#835F46'
+---
 
 As Laaija was discharged and came home, the very next day her skin showed yellow coloration and was immediately admitted to a Child’s Clinic where she was treated for Neonatal Jaundice. Her [Bilirubin](http://en.wikipedia.org/wiki/Bilirubin) count was about 14 and she had to be in the Incubator for about 5 days before she can return home.
 

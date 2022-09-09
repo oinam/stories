@@ -1,4 +1,10 @@
-# We all got COVID
+---
+layout: post
+title: We all got COVID
+image: '/assets/2021/coronavirus.png'
+tags: [covid-19, corona, oinam]
+tags_color: '#618770'
+---
 
 Amara, Laaija, and Shanta went to Manipur for the Summer break in early April. The COVID Pandemic Second Wave was weaning down in all major cities in India.
 

@@ -1,0 +1,52 @@
+title: Oinam Stories
+logo: '/assets/oinam-logo.png'
+description: 'Stories about kids, parenting, and fun things at Oinam.'
+color_scheme: auto # auto, light, and dark. 'auto' sets user choice.
+
+menu__settings:
+  menu__items:
+    - title: 'Home'
+      url: '/'
+    - title: 'Archives'
+      url: '/archives/'
+    - title: 'Contact'
+      url: 'https://oinam.com/'
+      target: '_blank'
+
+hero:
+  enable: true
+  hero__title: 'Oinam Stories'
+  hero__description: 'Stories about kids, parenting, and fun things at Oinam.'
+  hero__image: ''
+
+# Blog
+blog__settings:
+  enable: true
+  blog__title: 'Once upon a time'
+  blog__description: ''
+  blog__more: 'Read ’em ›'
+  blog__link: 'arhives'
+
+# Videos
+videos__settings:
+  enable: false
+  videos__title: 'Latest Videos'
+  videos__description:
+
+# Media (Video + Photo)
+media__settings:
+  enable: false
+  media__title: 'Photos & Videos'
+  media__description: 
+  media__more: 'Browse ’em ›'
+  media__link: 'media'
+  media__tags-photo: 'photo'
+  media__tags-video: 'video'
+
+# Tag
+tag__settings:
+  enable: false
+  tag: travel # To display the tag section, specify your favorite tag.
+
+# Footer
+footer__description: Don’t limit yourself. Many people limit themselves to what they think they can do. You can go as far as your mind lets you. What you believe, remember, you can achieve.
