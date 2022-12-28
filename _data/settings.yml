@@ -10,7 +10,7 @@ menu__settings:
     - title: 'Archives'
       url: '/archives/'
     - title: 'Contact'
-      url: 'https://oinam.com/'
+      url: 'https://oinam.com/contact/'
       target: '_blank'
 
 hero:
