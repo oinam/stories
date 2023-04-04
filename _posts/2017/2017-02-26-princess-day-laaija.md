@@ -18,4 +18,4 @@ I booked a tabled for the Lunch, and picked [Portland Steakhouse & Cafe](https:/
 
 She ends it with ice-cream, chocolates, and play-time at Funky Monkey, 1MG. Back home, she spent the remainder of her day playing Roblox.
 
-Laaija loved her Princess Day. I’ve promised her she can pick a Princess Day each month.
+Laaija loved her Princess Day.
