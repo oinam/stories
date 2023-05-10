@@ -1,0 +1,16 @@
+{% if site.data.settings.gallery.enable == true %}
+<div class="col col-4 col-d-6 col-t-12">
+  <div class="widget widget-gallery">
+    <div class="gallery-box gallery-footer">
+      <div class="gallery" style="grid-template-columns: repeat({{site.data.settings.gallery.gallery__columns}}, auto);">
+        {% for image in site.data.settings.gallery.gallery__images %}
+        <div class="gallery__image">
+          <img src="{{site.baseurl}}{{image.image_url}}" alt="{{image.alt}}" loading="lazy">
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+
+  </div>
+</div>
+{% endif %}

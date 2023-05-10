@@ -1,44 +1,27 @@
 {% if paginator.total_pages > 1 %}
-<div class="container">
-  <div class="row">
-    <div class="col col-12">
-      <nav class="pagination animate">
-        <div class="pagination__list">
-          {% if paginator.previous_page %}
-            {% if paginator.previous_page == 1 %}
-              <a class="previous-link" href="/archives/">&laquo;</a>
-            {% else %}
-              <a class="previous-link" href="/archives/page/{{ paginator.previous_page }}/">&laquo;</a>
-            {% endif %}
 
-          {% else %}
-            <span class="disabled">&laquo;</span>
-          {% endif %}
+<nav class="pagination animate" aria-label="Page navigation">
+  <div class="container">
+    <div class="pagination__inner">
 
-          <div class="counter-box">
-            {% if paginator.page == 1 %}
-              <span class="active-link">1</span>
-            {% else %}
-              <a class="back-link" href="/archives/">1</a>
-            {% endif %}
-            {% for count in (2..paginator.total_pages) %}
+      <div class="pagination__list">
+        {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path | relative_url }}" class="pagination__prev" rel="prev"><i class="ion ion-ios-arrow-back"></i> Prev</a>
+        {% else %}
+        <span class="pagination__prev disabled"><i class="ion ion-ios-arrow-back"></i> Prev</span>
+        {% endif %}
+  
+        <div class="pagination__count">Page {{ paginator.page }} of {{paginator.total_pages}}</div>
+  
+        {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path | relative_url }}" class="pagination__next">Next <i class="ion ion-ios-arrow-forward"></i></a>
+        {% else %}
+        <span class="pagination__next disabled">Next <i class="ion ion-ios-arrow-forward"></i></span>
+        {% endif %}
+      </div>
 
-            {% if count == paginator.page %}
-              <span class="active-link">{{ count }}</span>
-              {% else %}
-                <a class="count-number" href="/archives/page/{{ count }}/">{{ count }}</a>
-              {% endif %}
-            {% endfor %}
-          </div>
-
-          {% if paginator.next_page %}
-            <a class="next-link" href="{{ site.baseurl }}/archives/page/{{ paginator.next_page }}/">&raquo;</a>
-          {% else %}
-            <span class="disabled">&raquo;</span>
-          {% endif %}
-        </div>
-      </nav>
     </div>
   </div>
-</div>
+</nav>
+
 {% endif %}

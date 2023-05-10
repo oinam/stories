@@ -3,8 +3,6 @@ layout: post
 title: Avatar - Laaija's first movie experience
 image: '/assets/2010/avatar-movie.jpg'
 tags: [movie, avatar]
-tags_color: '#618770'
-featured: true
 ---
 
 > [Avatar](http://www.imdb.com/title/tt0499549/) is a science fiction epic film written and directed by James Cameron and starring Sam Worthington, Zoe Saldana, Sigourney Weaver, Michelle Rodriguez and Stephen Lang.

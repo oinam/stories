@@ -1,9 +1,7 @@
 ---
 layout: post
 title: A Toddler’s Night Terror
-image: '/assets/photo/photo-placeholder.jpg'
 tags: [school]
-tags_color: '#618770'
 ---
 
 Laaija is a sound sleeper and she can sleep very well even under very noisy environment. If she’s sleeping, she’s sleeping. However, once in a while, she would wake up and demand some of the most bizarre and weird demands. She would wail and cry, asking me to take her to down to the play-park, that her toys are being taken away, she do not love that person. We believed that she had nightmares and that woke her up.

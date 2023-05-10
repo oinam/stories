@@ -1,84 +1,65 @@
 /* Pagination */
 .pagination {
+  margin-top: 20px;
+}
+
+.pagination__inner {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 16px;
-  margin-bottom: 100px;
-
-  @media only screen and (max-width: $mobile) {
-    margin-bottom: 80px;
-  }
 }
 
 .pagination__list {
   display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-
-  .disabled,
-  .previous-link,
-  .next-link,
-  .back-link,
-  .active-link,
-  .count-number {
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    margin: 2px;
-    font-size: 16px;
-    text-align: center;
-    line-height: 40px;
-    font-weight: 600;
-    border-radius: 50%;
-    color: var(--heading-font-color);
-    background: var(--background-alt-color);
-  }
-
-  .disabled {
-    display: none;
-  }
-
-  .next-link,
-  .previous-link,
-  .back-link,
-  .count-number {
-    &:hover {
-      color: var(--white);
-      background: var(--heading-font-color);
-    }
-  }
-
-  .active-link {
-    color: var(--white);
-    background: var(--heading-font-color);
-  }
-
-  @media only screen and (max-width: 360px) {
-    flex-wrap: wrap;
-  }
+  font-weight: 600;
+  height: 48px;
+  padding: 0 20px;
+  font-size: 14px;
+  line-height: 48px;
+  border-radius: 40px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+  color: var(--text-color);
+  background-color: var(--background-alt-color);
 }
 
-.dark-mode {
-  .pagination__list {
-    .next-link,
-    .previous-link,
-    .back-link,
-    .count-number {
-      &:hover {
-        color: var(--dark);
-        background: var(--heading-font-color);
-      }
-    }
-
-    .active-link {
-      color: var(--dark);
-      background: var(--heading-font-color);
-    }
-  }
-}
-
-.counter-box {
+.pagination__count {
   display: inline-block;
-  font-size: 0;
+  padding: 0 15px;
+  margin: 0 15px;
+  font-size: 13px;
+  border-left: 1px solid var(--border-alt-color);
+  border-right: 1px solid var(--border-alt-color);
+  color: var(--text-alt-color);
+}
+
+.pagination__next,
+.pagination__prev {
+  display: flex;
+  align-items: center;
+
+  i {
+    font-size: 16px;
+  }
+
+  &:hover {
+    color: var(--brand-color);
+  }
+
+  &.disabled {
+    opacity: 0.2;
+    cursor: not-allowed;
+    color: inherit;
+  }
+}
+
+.pagination__next {
+  i {
+    margin-left: 8px;
+  }
+}
+
+.pagination__prev {
+  i {
+    margin-right: 8px;
+  }
 }

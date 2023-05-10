@@ -1,9 +1,7 @@
 ---
 layout: post
 title: Atopic Dermatitis
-image: '/assets/photo/photo-placeholder.jpg'
-tags: [laaija, illness]
-tags_color: '#618770'
+tags: [illness, dermatitis]
 ---
 
 Went to consult the physician for Laaija’s skin irritant that have started appearing on her hands and legs. Though they’re minute and not that really noticeable; she tends to scratch them at times. With her recent development of some asthmatic symptoms, I was worried if the situation will go chronic.

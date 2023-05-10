@@ -3,7 +3,6 @@ layout: post
 title: Technology and the depletion of real grit and raw intelligence
 image: '/assets/2017/canary-camera.jpg'
 tags: [technology]
-tags_color: '#618770'
 ---
 
 Yesterday, my elder 8-year old daughter lost something. Her mom asked her to search around the house to find it. She asked me for help.

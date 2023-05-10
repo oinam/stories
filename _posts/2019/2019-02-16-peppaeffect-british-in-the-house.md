@@ -4,7 +4,6 @@ title: The PeppaEffect - British in the House
 image: '/assets/2019/laaija-vr.jpg'
 video_embed: https://www.youtube.com/embed/fmoeC9mNVWg
 tags: [fun, peppa-pig, british, video]
-tags_color: '#b25642'
 ---
 
 I was not always comfortable that my first daughter speaks with a British Accent at an early age. It is much better now and is more neutral.

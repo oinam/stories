@@ -9,118 +9,92 @@
   opacity: 0;
 
   &.is-visible {
-    z-index: 98;
+    z-index: 100;
     opacity: 1;
+
+    .search__overlay {
+      z-index: 10;
+      opacity: 1;
+      transition: all .25s ease;
+    }
 
     .search__box {
       transform: translateY(-20px);
     }
-  }
-
-  &::after {
-    content: "";
-    position: absolute;
-    z-index: 94;
-    top: 0;
-    right: 0;
-    width: 17px;
-    height: 100%;
-    background-color: var(--background-color);
   }
 }
 
 .search__overlay {
   position: fixed;
   top: 0;
+  right: 0;
+  bottom: 0;
   left: 0;
-  z-index: 96;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+  opacity: 0;
+  background: linear-gradient(320deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.1) 100%);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
 }
 
 .search__box {
   position: relative;
   z-index: 100;
-  max-width: 700px;
-  margin: 120px auto 0;
-  padding: 60px;
+  max-width: 540px;
+  margin: 100px auto 0;
   border-radius: 8px;
-  background: var(--background-color);
-  transition: all .25s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .1);
+  background-color: var(--background-alt-color);
+  overflow: hidden;
   will-change: transform;
+  transition: all .2s ease;
 
-  @media only screen and (max-width: $desktop) {
-    margin: 120px auto 0;
-  }
-
-  @media only screen and (max-width: $tablet) {
-    padding: 40px;
-  }
-
-  @media only screen and (max-width: $mobile) {
-    padding: 32px;
+  @media (max-width: $desktop) {
+    margin: 80px auto 0;
   }
 }
 
 .search__group {
   position: relative;
-  margin-bottom: 32px;
 
-  .search__close {
+  .search-input-icon {
     position: absolute;
-    right: 28px;
+    left: 24px;
     top: 50%;
     transform: translateY(-50%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 28px;
-    height: 28px;
+    font-size: 22px;
+    line-height: 1;
+    color: var(--heading-font-color);
+  }
+
+  .icon__search__close {
+    position: absolute;
+    right: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: none;
     font-size: 21px;
     line-height: 1;
-    border-radius: 50%;
-    color: var(--background-color);
+    color: var(--heading-font-color);
     cursor: pointer;
-    will-change: transform;
-    transition: all .25s;
-    background: var(--heading-font-color);
-
-    &:hover {
-      transform: translateY(-50%) rotate(90deg);
-      color: var(--white);
-      background: var(--brand-color);
-    }
-
-    .ion-md-close {
-      vertical-align: middle;
-    }
-
-    @media only screen and (max-width: $mobile) {
-      right: 24px;
-    }
   }
 
   .search__text {
     width: 100%;
-    padding: 28px;
+    padding: 24px 44px 24px 50px;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 24px;
-    border: 2px solid var(--heading-font-color);
-    border-radius: 8px;
+    border: none;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .10);
     color: var(--heading-font-color);
-    background-color: var(--background-color);
+    background-color: var(--background-alt-color);
     outline: 0;
     transition: all .25s;
 
     &::placeholder {
-      font-weight: 700;
+      font-weight: 500;
       color: var(--heading-font-color);
-    }
-
-    &:focus {
-      border-color: var(--brand-color);
     }
 
     &::-ms-clear {
@@ -128,39 +102,34 @@
     }
   }
 
-  @media only screen and (max-width: $mobile) {
-    margin-bottom: 32px;
-
-    .search__text {
-      padding: 24px;
+  @media (max-width: $mobile) {
+    .icon__search__close {
+      display: block;
     }
   }
 }
 
 .search-results-list {
-  max-height: calc(80vh - 260px);
-  color: var(--heading-font-color);
-  overflow-x: hidden;
-  overflow-y: auto;
+  max-height: 68vh;
   white-space: normal;
+  overflow: auto;
 
   .search-results__item {
     display: flex;
     align-items: center;
+    margin-left: 24px;
+    margin-right: 24px;
     padding-bottom: 12px;
     margin-bottom: 12px;
-    border-bottom: 1px solid var(--background-alt-color);
+    border-bottom: 1px solid var(--border-alt-color);
 
-    &:hover {
-      .search-results__title {
-        text-decoration-color: var(--heading-font-color);
-      }
+    &:first-child {
+      padding-top: 24px;
     }
 
-    @media only screen and (max-width: $mobile) {
-      flex-direction: column;
-      padding-bottom: 16px;
-      margin-bottom: 16px;
+    &:last-child {
+      padding-bottom: 12px;
+      border-bottom: 0;
     }
   }
 
@@ -168,65 +137,55 @@
     position: relative;
     display: inline-block;
     margin-right: 16px;
-    min-width: 80px;
-    height: 80px;
-    border-radius: 8px;
-    overflow: hidden;
-    background: var(--background-alt-color);
+    min-width: 100px;
+    height: 90px;
+    border-radius: 24px;
+    transition: transform .3s ease;
+    background-size: cover;
+    background-color: var(--background-alt-color);
+    background-position: center;
+    background-repeat: no-repeat;
 
-    img {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      user-select: none;
-    }
-
-    @media only screen and (max-width: $mobile) {
-      margin-right: 0;
-      min-width: 100%;
-      height: 200px;
+    &:hover {
+      transform: translateY(-2px);
     }
   }
 
-  .search-results__content {
+  .search-results__link {
     position: relative;
     display: block;
-    padding: 10px 0 10px 0;
-    transition: inherit;
+    font-size: 17px;
+    line-height: 1.3;
+    font-weight: 700;
+    color: var(--heading-font-color);
 
     &:hover {
-      .search-results__title {
+      .search-results-title {
         text-decoration-color: var(--heading-font-color);
       }
     }
-
-    @media only screen and (max-width: $mobile) {
-      padding: 16px 0 0 0;
-    }
   }
 
-  .search-results__date {
-    display: block;
-    margin-bottom: 8px;
-    font-size: 12px;
-    line-height: 1;
-    color: var(--text-alt-color);
-  }
-
-  .search-results__title {
-    font-family: $heading-font-family;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.3;
+  .search-results-title {
     text-decoration: underline;
     text-decoration-color: transparent;
-    transition: $global-transition;
+    text-underline-offset: 2px;
+    text-decoration-thickness: 1.2px;
+    transition: all .25s;
+  }
+
+  .search-results-date {
+    font-size: 12px;
+    line-height: 1.3;
+    font-weight: 400;
   }
 
   .no-results {
     width: 100%;
     margin: 0;
+    padding: 24px;
+    font-size: 18px;
+    font-weight: 400;
     color: var(--heading-font-color);
   }
 }

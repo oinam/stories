@@ -1,9 +1,7 @@
 ---
 layout: post
 title: Signs that your child loves you
-image: '/assets/photo/photo-placeholder.jpg'
 tags: [love, baby]
-tags_color: '#b25642'
 ---
 
 Signs that your child loves you;

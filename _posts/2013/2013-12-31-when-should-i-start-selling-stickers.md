@@ -3,7 +3,6 @@ layout: post
 title: When should I start selling Stickers
 image: '/assets/2013/laaija-stickers-sale.jpg'
 tags: [money, commercial, startup]
-tags_color: '#b25642'
 ---
 
 The recent cut on Laaija’s toy quota have sent her over the edge and every opportunity she gets is on how to get more money sanctioned for her toys. She have devised quite a few ideas and some of them are pretty interesting.

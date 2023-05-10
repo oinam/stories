@@ -3,93 +3,24 @@
 
 {% include head.html %}
 
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#262626">
-<meta name="msapplication-TileColor" content="#262626">
-<meta name="theme-color" content="#ffffff">
-
 <body>
-
-  {% if site.data.settings.google-analytics %}
-    {% include google-analytics.html %}
-  {% endif %}
-
-  <!-- begin global wrap -->
+  
   <div class="global-wrap">
 
-    {% if site.data.settings.hero.hero__image and page.url == '/' %}
-    <!-- begin hero image -->
-    <div class="hero__image">
-      <div class="hero__image__inner">
-        <img class="lazy" data-src="{{site.data.settings.hero.hero__image}}" alt="{{site.data.settings.title}}">
-      </div>
-    </div>
-    <!-- end hero image -->
-    {% endif %}
-  
     {% include header.html %}
   
-    <!-- begin content -->
     <main class="content" aria-label="Content">
       {{ content }}
     </main>
-    <!-- end content -->
-  
-    {% include subscribe.html %}
-    {% include footer.html %}
+    
+    <div class="top" title="Top"><i class="ion ion-md-arrow-round-up"></i></div>
 
+    {% include footer.html %}
+    
   </div>
-  <!-- end global wrap -->
 
   <script src="{{ site.baseurl }}/js/scripts.js"></script>
   <script src="{{ site.baseurl }}/js/common.js"></script>
-  
-  {% comment %}
-  <!--
-    Let's add some speckles, I have two daughter and they love these.
-    https://github.com/dreamsicle-io/speckle
-  -->
-  {% endcomment %}
-  <script src="{{ site.baseurl }}/js/speckle.min.js"></script>
-  <script type="text/javascript">
-    const multi = document.querySelector('main');
-   
-    // Layer 1
-    new Speckle(multi, {
-      tbOffset: 0, 
-      lrOffset: 30, 
-      zIndex: -99,
-    });
-
-    // Layer 2
-    new Speckle(multi, {
-      quantity: 20, 
-      minSize: 10,
-      maxSize: 90, 
-      tbOffset: 0, 
-      lrOffset: 24,
-      isBokeh: true,
-      minOpacity: 20, 
-      maxOpacity: 30,
-      zIndex: -9,
-    });
-
-    // Layer 3
-    new Speckle(multi, {
-      isBokeh: true, 
-      quantity: 20, 
-      minSize: 20, 
-      maxSize: 100, 
-      tbOffset: 0, 
-      lrOffset: 30, 
-      minOpacity: 10, 
-      maxOpacity: 40,
-      zIndex: 9, 
-    });
-  </script>
 </body>
 
 </html>

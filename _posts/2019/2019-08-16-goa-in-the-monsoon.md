@@ -3,7 +3,6 @@ layout: post
 title: Goa in the Monsoon
 image: '/assets/2019/oinam-goa-2019-aug.jpg'
 tags: [travel, goa, fun]
-tags_color: '#618770'
 featured: true
 ---
 

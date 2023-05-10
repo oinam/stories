@@ -2,7 +2,7 @@
 layout: post
 title: Why Physical Books Matter
 image: 'https://cdn.oinam.com/img/books/books-laaija-2018.jpg'
-tags: [books, laaija, amara, amazon, kindle]
+tags: [books, amazon, kindle]
 featured: true
 ---
 

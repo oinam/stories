@@ -2,8 +2,7 @@
 layout: post
 title: Princess Day - Laaija
 image: '/assets/2017/breakfast-in-bed.jpg'
-tags: [princess, laaija]
-tags_color: '#0079c0'
+tags: [princess, celebration]
 ---
 
 # Princess Day - Laaija

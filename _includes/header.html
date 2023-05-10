@@ -1,6 +1,5 @@
-<!-- begin header -->
 <header class="header">
-  <div class="container-big">
+  <div class="container">
     <div class="row">
       <div class="header__inner col col-12">
 
@@ -18,7 +17,7 @@
           <div></div>
         </div>
 
-        <nav class="main-nav" aria-label="Main menu">
+        <nav class="main-nav">
           <div class="main-nav__box">
             <ul class="nav__list list-reset">
 
@@ -27,14 +26,14 @@
               <li class="nav__item dropdown">
                 <span class="nav__link dropdown-toggle">{{ item.title }} <i class="ion ion-ios-arrow-down arrow-down"></i></span>
                 <div class="dropdown-menu">
-                {% for submenu-item in item.submenu %}
-                  <a href="{{ submenu-item.url }}" class="nav__link{% if page.url == submenu-item.url %} active-link{% endif %}">{{submenu-item.title}}</a>
-                {% endfor %}
+                  {% for submenu-item in item.submenu %}
+                    <a href="{{ submenu-item.url }}" target="{{ item.target }}" class="nav__link{% if page.url == submenu-item.url %} active-link{% endif %}">{{submenu-item.title}}</a>
+                  {% endfor %}
                 </div>
               </li>
               {% else %}
               <li class="nav__item">
-                <a href="{{ item.url | relative_url }}" class="nav__link{% if page.url == item.url %} active-link{% endif %}" target="{{ item.target}}">{{ item.title }}</a>
+                <a href="{{ item.url | relative_url }}" target="{{ item.target }}" class="nav__link{% if page.url == item.url %} active-link{% endif %}">{{ item.title }}</a>
               </li>
               {% endif %}
               {% endfor %}
@@ -42,7 +41,7 @@
             </ul>
           </div>
 
-          <div class="nav-button">
+          <div class="nav-buttons">
             {% if site.data.settings.color_scheme == "auto" %}
             <div class="toggle-theme">
               <div class="toggle-moon" title="Enable dark mode" aria-hidden="true"><i class="ion ion-ios-moon"></i></div>
@@ -64,6 +63,5 @@
     </div>
   </div>
 </header>
-<!-- end header -->
 
 {% include search.html %}

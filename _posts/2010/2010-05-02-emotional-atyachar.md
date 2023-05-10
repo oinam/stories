@@ -1,9 +1,7 @@
 ---
 layout: post
 title: Emotional Atyachar
-image: '/assets/photo/photo-placeholder.jpg'
-tags: [laaija, emotion, toddler]
-tags_color: '#477690'
+tags: [emotion, toddler]
 ---
 
 Our naughty toddler is growing up fast and is learning all the emotions of an Individual. Yesterday, her nanny went home early and she went all emotional. She wailed, threw toys, hit us for all reasons of her own. I had seen other kid where they threw temper tantrums and acts of aggression that I wished my child should not do.

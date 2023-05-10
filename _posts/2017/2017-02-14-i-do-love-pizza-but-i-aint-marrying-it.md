@@ -3,7 +3,6 @@ layout: post
 title: Yes, I do love Pizza, but I ain’t marrying it
 image: '/assets/2017/pizza.jpg'
 tags: [pizza, joke]
-tags_color: '#0079c0'
 ---
 
 Yesterday, Daughter and I made a quick-stop at the Smoor, Indiranagar to grab coffee and ice-cream. She decided to get a Pizza to-go. Here is the conversation that went between Laaija and and the Pizza guy.

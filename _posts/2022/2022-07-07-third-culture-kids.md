@@ -1,10 +1,8 @@
 ---
 layout: post
 title: Third Culture Kids
-image: 'https://cdn.oinam.com/img/oinam/amara-laaija-2022jun.jpg'
-photo_album: https://photos.app.goo.gl/Gao3hq1qYsgNBnzy6
-tags: [global, culture, amara, laaija]
-tags_color: '#618770'
+image: '/assets/2022/amara-laaija-2022jun.jpg'
+tags: [global, culture]
 featured: true
 ---
 

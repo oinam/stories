@@ -3,13 +3,13 @@ url: ""
 
 # Build
 markdown: kramdown
-permalink: /:title
+permalink: /:title/
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
 
-paginate: 10
-paginate_path: "/archives/page/:num"
+paginate: 12
+paginate_path: "/page/:num"
 
 # Collections
 collections:
@@ -20,22 +20,8 @@ collections:
     output: true
     permalink: /:year/:title/
 
-# Pages Path
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: "default"
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
+include:
+  - _pages
 
 sass:
   sass_dir: _sass

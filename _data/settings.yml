@@ -1,52 +1,44 @@
-title: Oinam Stories
-logo: '/assets/oinam-logo.png'
+title: 'Oinam Stories'
+# logo: '/assets/oinam-logotype.png'
 description: 'Stories about kids, parenting, and fun things at Oinam.'
-color_scheme: auto # auto, light, and dark. 'auto' sets user choice.
+color_scheme: auto # Options: auto (default), light, and dark
 
 menu__settings:
   menu__items:
-    - title: 'Home'
-      url: '/'
-    - title: 'Archives'
-      url: '/archives/'
     - title: 'Contact'
-      url: 'https://oinam.com/contact/'
       target: '_blank'
+      url: 'https://oinam.com/contact/'
+
+author:
+  author__name: Oinam
+  author__avatar: '/assets/author-oinam.png'
+  author__bio: 'Stories about kids, parenting, and fun things at Oinam.'
 
 hero:
-  enable: true
-  hero__title: 'Oinam Stories'
+  hero__title: <span>fairy tales</span>, & fun # <span></span> to highlight and underline text
+  # hero__job: Photos, Videos, and Fairytales
   hero__description: 'Stories about kids, parenting, and fun things at Oinam.'
-  hero__image: ''
+  # hero__button__text: Read about my past
+  # hero__button__link: '/about/'
+  hero__image: '/assets/0/hero.jpg'
 
-# Blog
-blog__settings:
+
+# Footer Gallery
+gallery:
   enable: true
-  blog__title: 'Once upon a time'
-  blog__description: ''
-  blog__more: 'Read ’em ›'
-  blog__link: 'arhives'
+  gallery__title: Gallery
+  gallery__columns: '3' # gallery columns
+  gallery__images:
+    - image_url: '/assets/0/gallery/1.jpg'
+    - image_url: '/assets/0/gallery/2.jpg'
+    - image_url: '/assets/0/gallery/3.jpg'
+    - image_url: '/assets/0/gallery/4.jpg'
+    - image_url: '/assets/0/gallery/5.jpg'
+    - image_url: '/assets/0/gallery/6.jpg'
 
-# Videos
-videos__settings:
-  enable: false
-  videos__title: 'Latest Videos'
-  videos__description:
-
-# Media (Video + Photo)
-media__settings:
-  enable: false
-  media__title: 'Photos & Videos'
-  media__description: 
-  media__more: 'Browse ’em ›'
-  media__link: 'media'
-  media__tags-photo: 'photo'
-  media__tags-video: 'video'
-
-# Tag
-tag__settings:
-  enable: false
-  tag: travel # To display the tag section, specify your favorite tag.
-
-# Footer
-footer__description: Don’t limit yourself. Many people limit themselves to what they think they can do. You can go as far as your mind lets you. What you believe, remember, you can achieve.
+# Social (via https://ionicons.com/v4/)
+social:
+- {icon: 'ion-logo-twitter', name: 'Twitter', link: 'https://twitter.com/oinam/'}
+- {icon: 'ion-logo-instagram', name: 'Instagram', link: 'https://www.instagram.com/oinam/'}
+- {icon: "ion-logo-youtube", name: "Youtube", link: "https://www.youtube.com/@oinam/"}
+- {icon: "ion-logo-github", name: "Github", link: "https://github.com/oinam/"}

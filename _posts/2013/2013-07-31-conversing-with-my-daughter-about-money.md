@@ -2,9 +2,7 @@
 layout: post
 title: Conversing with my Daughter about Money
 image: '/assets/2013/laaija-nemo.jpg'
-tags: [talk, laaija, money]
-tags_color: '#618770'
-featured: true
+tags: [talk, money]
 ---
 
 Yesterday, I went out for an evening coffee/snack with my daughter. On our way back home, she asked me if we can window-shop at the toy store. She assured me, “just want to look at the toys and not to buy.” Her mom had already done a good job of persuading her that buying too many toys are “not good for the toys” as they will fight amongst themselves when a new toys joins them and thus reducing toy-human time.

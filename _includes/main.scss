@@ -3,10 +3,11 @@
 -------------------------------------------------------------------*/
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-:: Template name: Mria
-::
+:: Template name: Atega
+:: Atega is a fast and creative theme for creating a minimal blog for Jekyll. This theme was created for those who want to create a personal blog with simple functions and effects,
+who appreciate simplicity and functionality. You can start sharing your stories today.
 :: Template Author: Artem Sheludko
-:: Version: 1.0
+:: Version: 2.1
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -29,12 +30,15 @@
     3.7-Article
     3.8-Contact
     3.9-Sections
-    3.10-Section Tags
-    3.11-Subscribe
+    3.10-Section Featured Posts
+    3.11-Section Tags
+    3.12-Section Links
+    3.13-Social Links
+    3.14-Scroll Button Top
 :: 4-Layouts
     4.1-Post Page
-    4.2-Authors
-    4.3-Tags Page
+    4.2-Author Page
+    4.3-Tag Page
 <<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
 
@@ -89,10 +93,16 @@
 @import '3-modules/contact';
 /* >>>>>>>>>>>>>> :: 3.9-Sections <<<<<<<<<<<<<<< */
 @import '3-modules/sections';
-/* >>>>>>>>>>>>>> :: 3.10-Section Tags <<<<<<<<<<<<<<< */
+/* >>>>>>>>>>>>>> :: 3.10-Section Featured Posts <<<<<<<<<<<<<<< */
+@import '3-modules/section-featured-posts';
+/* >>>>>>>>>>>>>> :: 3.11-Section Tags <<<<<<<<<<<<<<< */
 @import '3-modules/section-tags';
-/* >>>>>>>>>>>>>> :: 3.11-Subscribe <<<<<<<<<<<<<<< */
-@import '3-modules/subscribe';
+/* >>>>>>>>>>>>>> :: 3.12-Section Links <<<<<<<<<<<<<<< */
+@import '3-modules/section-links';
+/* >>>>>>>>>>>>>> :: 3.13-Social Links <<<<<<<<<<<<<<< */
+@import '3-modules/social-links';
+/* >>>>>>>>>>>>>> :: 3.14-Scroll Button Top <<<<<<<<<<<<<<< */
+@import '3-modules/scroll-button-top';
 
 
 /* =======================
@@ -100,7 +110,7 @@
 ======================= */
 /* >>>>>>>>>>>>>> :: 4.1-Post <<<<<<<<<<<<<<< */
 @import '4-layouts/post';
-/* >>>>>>>>>>>>>> :: 4.2-Authors <<<<<<<<<<<<<<< */
-@import '4-layouts/authors';
-/* >>>>>>>>>>>>>> :: 4.3-Tags Page <<<<<<<<<<<<<<< */
-@import '4-layouts/tags-page';
+/* >>>>>>>>>>>>>> :: 4.2-Author Page <<<<<<<<<<<<<<< */
+@import '4-layouts/author';
+/* >>>>>>>>>>>>>> :: 4.2-Tag Page <<<<<<<<<<<<<<< */
+@import '4-layouts/tag-page';

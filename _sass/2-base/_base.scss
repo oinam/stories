@@ -1,4 +1,6 @@
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
 }
 
@@ -6,9 +8,10 @@ body {
   font-family: $base-font-family;
   font-size: $base-font-size;
   line-height: $base-line-height;
-  overflow-x: hidden;
+  border: 10px solid var(--background-color);
   color: var(--text-color);
   background-color: var(--background-color);
+  overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
@@ -18,7 +21,10 @@ body {
   }
 
   &.disable-animation {
-    *, *::after, *::before {
+
+    *,
+    *::after,
+    *::before {
       transition: none !important;
     }
   }
@@ -29,6 +35,11 @@ body {
     overflow-x: hidden;
     overflow-y: scroll;
   }
+}
+
+*::selection {
+  color: var(--white);
+  background-color: var(--brand-color);
 }
 
 h1,
@@ -70,23 +81,21 @@ h6 {
 
 blockquote {
   position: relative;
-  margin: 32px 0;
-  padding: 24px 0 24px 56px;
-  font-family: $heading-font-family;
+  margin-top: 30px;
+  padding: 25px 25px 15px 60px;
   font-size: 30px;
-  line-height: 1.6;
+  line-height: 45px;
+  font-weight: 700;
   font-style: normal;
   color: var(--heading-font-color);
 
   &::before {
     content: '\201C';
     position: absolute;
-    top: 0.7em;
-    left: 0;
-    font-family: $base-font-family;
+    top: 0.35em;
+    left: 0.05em;
     font-size: 3.5em;
-    line-height: 0;
-    color: var(--heading-font-color);
+    color: var(--brand-color);
   }
 
   p {
@@ -95,21 +104,26 @@ blockquote {
 
   cite {
     display: inline-block;
-    margin-top: 10px;
-    font-size: 14px;
-    font-weight: 700;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1;
     font-style: normal;
     color: var(--heading-font-color);
 
+    &:before {
+      content: '\2014' '\00a0';
+    }
   }
 
-  @media only screen and (max-width: $mobile) {
-    padding: 12px 0 12px 40px;
-    font-size: 20px;
+  @media (max-width: $desktop) {
+    font-size: 24px;
+    line-height: 37px;
+  }
 
-    &::before {
-      top: 0.63em;
-    }
+  @media (max-width: $mobile) {
+    padding: 38px 0 15px 35px;
+    font-size: 21px;
+    line-height: 31px;
   }
 }
 
@@ -136,24 +150,26 @@ img,
 .gallery {
   &+em {
     display: block;
-    margin-top: 20px;
+    margin-top: 16px;
     font-size: 12px;
+    line-height: 1;
     font-style: normal;
     font-weight: normal;
     text-align: center;
-  
+    color: var(--heading-font-color);
+
     a {
-      font-weight: 600;
-      border-bottom: 1px solid transparent;
+      font-weight: 500;
+      border-bottom: 1px solid var(--border-color);
       transition: $global-transition;
 
       &:hover {
         color: var(--link-color);
-        border-color: var(--link-color-hover);
+        border-color: var(--link-color);
       }
     }
-  
-    @media only screen and (max-width: $mobile) {
+
+    @media (max-width: $mobile) {
       margin-top: 12px;
     }
   }
@@ -165,23 +181,20 @@ a {
   transition: $global-transition;
 
   &:hover {
-    color: var(--link-color-hover);
+    color: var(--link-color);
   }
 }
 
 hr {
   position: relative;
   height: 1px;
-  margin: 60px 0;
-  font-size: 21px;
+  margin: 50px 0;
   border: 0;
 
   &::before {
     content: ". . .";
     position: absolute;
     top: -5px;
-    left: 50%;
-    transform: translateX(-50%);
     line-height: 0;
     color: var(--heading-font-color);
   }
@@ -198,7 +211,6 @@ table {
   color: var(--dark);
   width: 100%;
   border-width: 1px;
-  border-color: var(--background-alt-color);
   border-collapse: collapse;
   color: var(--heading-font-color);
 }
@@ -215,6 +227,7 @@ table th {
 table tr {
   background-color: var(--tr-color);
   transition: all .3s ease;
+
   &:nth-child(even) {
     background-color: transparent;
   }
@@ -223,41 +236,43 @@ table tr {
 table td {
   padding: 10px;
   font-size: 14px;
-  border: 1px solid var(--background-alt-color);
+  border: 1px solid var(--th-color);
 }
 
 .button {
   display: inline-block;
-  padding: 12px 24px;
-  font-size: 16px;
-  line-height: 1.2;
-  line-height: 1.4;
-  font-weight: 600;
-  text-decoration: none;
-  border-radius: 8px;
+  height: 50px;
+  padding: 0 20px;
+  font-size: 15px;
+  font-weight: 700;
   border: none;
   outline: none;
-  cursor: pointer;
-  transition: all .25s;
   color: var(--button-color);
   background: var(--button-background-color);
+  transition: $global-transition;
+  cursor: pointer;
 
   &:hover {
-    color: var(--button-color);
+    color: var(--white);
     background: var(--button-background-hover);
   }
 
-  &--primary {
-    color: var(--button-color);
-    background: var(--button-background-hover);
-
-    &:hover {
-      opacity: 0.95;
-    }
+  &--rounded {
+    border-radius: 40px;
   }
 
   &--big {
-    padding: 20px 36px;
+    display: block;
+    width: 100%;
+  }
+}
+
+.lazy {
+  opacity: 0;
+  transition: 0.3s;
+
+  &.loaded {
+    opacity: 1
   }
 }
 
