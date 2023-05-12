@@ -42,3 +42,4 @@ social:
 - {icon: 'ion-logo-instagram', name: 'Instagram', link: 'https://www.instagram.com/oinam/'}
 - {icon: "ion-logo-youtube", name: "Youtube", link: "https://www.youtube.com/@oinam/"}
 - {icon: "ion-logo-github", name: "Github", link: "https://github.com/oinam/"}
+- {icon: "ion-logo-linkedin", name: "LinkedIn", link: "https://www.linkedin.com/company/oinam/"}
