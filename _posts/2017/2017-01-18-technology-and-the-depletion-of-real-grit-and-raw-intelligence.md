@@ -16,7 +16,6 @@ She ignored all of my smart deduction tactics. Instead, she replied, “Why don�
 
 “huh!”
 
-Kids these days are losing touch with real grit and raw intelligence. ;-)
-The camera she referred to is a simple Home Security [Canary](https://canary.is/) that we have it watching over the family. It was just a matter of knowing a rough time and watching it from there.
+Kids these days are losing touch with real grit and raw intelligence. The camera she referred to is a simple Home Security [Canary](https://canary.is/) that we have it watching over the family in the living room. It was just a matter of knowing a rough time and watching it from there.
 
 Anyway, her mom found the item, while we were trying to figure out the nearest timeline to watch.

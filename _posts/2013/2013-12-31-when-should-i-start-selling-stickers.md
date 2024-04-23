@@ -23,4 +23,4 @@ Me: Good Plan.
 
 And today, she re-decorated her room, re-arrange quite a lot of toys and made modifications to few of them, thanks to cello-tapes. She even drew a bunch of “tickets” on the yellow sticky-notes.
 
-Just before lunch, she announced that she is doing a dolphin-show, which happened to be one of her toys. We were supposed to buy the “tickets” and watch her play the dolphins. We did bought her “tickets” which cost Rs. 5 each and her 5-minute “dolphin show” earned her Rs. 15.
+Just before lunch, she announced that she is doing a dolphin-show, which happened to be one of her toys. We were supposed to buy the “tickets” and watch her play the dolphins. We did bought her “tickets” which cost ₹5 each and her 5-minute “dolphin show” earned her ₹15.
